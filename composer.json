@@ -1,0 +1,13 @@
+{
+    "name": "glasteel/RollsCapsTrait",
+    "authors": [
+        {
+            "name": "Paul Glass-Steel",
+            "email": "glasteel@email.unc.edu"
+        }
+    ],
+    "autoload": {
+        "classmap": ["RollsCapsTrait.php"]
+    },
+	"require": {}
+}

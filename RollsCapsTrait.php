@@ -50,9 +50,7 @@ trait RollsCapsTrait
 
 				JOIN {$this->primary_bean_table}_role AS jr ON jr.role_slug = r.slug
 
-				JOIN $this->primary_bean_table AS p ON p.id = jr.user_id
-
-			WHERE p.id = :this_id
+			WHERE jr.user_id = :this_id
 				AND c.active = 1
 				AND rc.active = 1
 				AND r.active = 1
